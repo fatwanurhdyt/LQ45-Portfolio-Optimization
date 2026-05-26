@@ -95,15 +95,15 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 - **Highest volatility**: EXCL.JK — recorded the highest price fluctuation (40.76%), indicating a relatively aggressive risk profile
 - **Lowest correlation pair**: EXCL.JK & ICBP.JK — showed the weakest correlation (0.19), suggesting strong diversification potential when combined in a portfolio
 - **Optimal portfolio** (max Sharpe Ratio ≈ 0.234):
-   • ASII.JK: ~29%
-   • BMRI.JK: ~24%
-   • BBRI.JK: ~13%
-   • BBCA.JK: ~9%
-   • TLKM.JK: ~9%
-   • Others: distributed across the remaining assets
+    - ASII.JK: ~29%
+    - BMRI.JK: ~24%
+    - BBRI.JK: ~13%
+    - BBCA.JK: ~9%
+    - TLKM.JK: ~9%
+    - Others: distributed across the remaining assets
 - **Efficient Frontier** reveals:
-   • higher expected returns generally require higher portfolio risk,
-   • while diversification across multiple LQ45 sectors helps reduce overall portfolio volatility and improve portfolio efficiency
+    - higher expected returns generally require higher portfolio risk,
+    - while diversification across multiple LQ45 sectors helps reduce overall portfolio volatility and improve portfolio efficiency
 ---
 
 ## Dashboard Preview
