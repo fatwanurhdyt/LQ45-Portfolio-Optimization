@@ -21,7 +21,7 @@
 
 ## Project Overview
 
-This project performs a comprehensive risk-return analysis on 10 actively traded Indonesian stocks from the **LQ45 index**, covering the period **January 2020 – December 2024**. Using Modern Portfolio Theory (MPT) and Monte Carlo simulation, the analysis identifies the optimal portfolio allocation that maximizes the Sharpe Ratio — offering the best risk-adjusted return for investors.
+This project performs a comprehensive risk-return analysis on 10 actively traded Indonesian stocks from the **LQ45 index**, covering the period **January 2020 – December 2025**. Using Modern Portfolio Theory (MPT) and Monte Carlo simulation, the analysis identifies the optimal portfolio allocation that maximizes the Sharpe Ratio — offering the best risk-adjusted return for investors.
 
 The project demonstrates end-to-end data analysis skills: from data ingestion and cleaning, through statistical modeling, to interactive dashboard storytelling.
 
@@ -116,20 +116,20 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 ## Project Structure
 
 ```
-portfolio-saham-indonesia/
+Indonesia-Stock-Analysis/
 │
 ├── data/
-│   ├── harga_saham.csv          # Raw daily closing prices
+│   ├── stock_price.csv          # Raw daily closing prices
 │   ├── daily_returns.csv        # Computed daily returns
 │   ├── stock_summary.csv        # Annualized return, volatility, Sharpe per stock
 │   └── monte_carlo.csv          # 5,000 simulated portfolio metrics
 │
 ├── notebooks/
-│   └── analisis_portofolio.ipynb  # Main analysis notebook (fully documented)
+│   └── ind_stock_analysis.ipynb  # Main analysis notebook (fully documented)
 │
 ├── output/
-│   ├── heatmap_korelasi.png     # Correlation heatmap
-│   ├── harga_normalized.png     # Normalized price chart
+│   ├── correlation_heatmap.png     # Correlation heatmap
+│   ├── normalized_price.png     # Normalized price chart
 │   └── efficient_frontier.png  # Monte Carlo efficient frontier plot
 │
 └── README.md
@@ -147,8 +147,8 @@ portfolio-saham-indonesia/
 
 ```bash
 # Clone the repository
-git clone https://github.com/fatwanurhdyt/portfolio-saham-indonesia.git
-cd portfolio-saham-indonesia
+git clone https://github.com/fatwanurhdyt/Indonesia-Stock-Analysis.git
+cd Indonesia-Stock-Analysis
 
 # Install dependencies
 pip install yfinance pandas numpy matplotlib seaborn scipy jupyter
