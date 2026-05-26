@@ -91,19 +91,26 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 
 > *Note: Values below are illustrative examples based on historical data. Actual results may vary.*
 
-- **Best Sharpe Ratio stock**: ????????
-- **Highest volatility**: ????????
-- **Lowest correlation pair**: ????????
-- **Optimal portfolio** (max Sharpe Ratio ≈ ????????):
-  - BBCA: ~28% | BBRI: ~19% | TLKM: ~15% | Others: distributed across remaining 7 stocks
-- **Efficient Frontier** reveals: ????????
+- **Best Sharpe Ratio stock**: BMRI.JK — delivered the strongest risk-adjusted return among all selected LQ45 stocks, with a Sharpe Ratio of 0.301
+- **Highest volatility**: EXCL.JK — recorded the highest price fluctuation (40.76%), indicating a relatively aggressive risk profile
+- **Lowest correlation pair**: EXCL.JK & ICBP.JK — showed the weakest correlation (0.19), suggesting strong diversification potential when combined in a portfolio
+- **Optimal portfolio** (max Sharpe Ratio ≈ 0.234):
+   • ASII.JK: ~29%
+   • BMRI.JK: ~24%
+   • BBRI.JK: ~13%
+   • BBCA.JK: ~9%
+   • TLKM.JK: ~9%
+   • Others: distributed across the remaining assets
+- **Efficient Frontier** reveals:
+   • higher expected returns generally require higher portfolio risk,
+   • while diversification across multiple LQ45 sectors helps reduce overall portfolio volatility and improve portfolio efficiency
 ---
 
 ## Dashboard Preview
 
 | Page | Content |
 |---|---|
-| **Overview** | Normalized price chart, total return by stock (2020–2024) |
+| **Overview** | Normalized price chart, total return by stock (2020–2025) |
 | **Risk-Return Map** | Scatter plot of annualized return vs. volatility per stock |
 | **Efficient Frontier** | 5,000 simulated portfolios colored by Sharpe Ratio |
 | **Recommendation** | Optimal allocation pie chart with key metrics |
