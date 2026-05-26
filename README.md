@@ -45,7 +45,7 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 | **Source** | Yahoo Finance via `yfinance` Python library |
 | **Stocks** | BBCA, BBRI, TLKM, ASII, BMRI, UNVR, ICBP, KLBF, EXCL, INDF |
 | **Index** | LQ45 (Indonesia Stock Exchange) |
-| **Period** | January 2020 – December 2024 (5 years) |
+| **Period** | January 2020 – December 2025 (6 years) |
 | **Frequency** | Daily closing prices |
 | **Records** | ~1,200 trading days × 10 stocks |
 
@@ -91,13 +91,12 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 
 > *Note: Values below are illustrative examples based on historical data. Actual results may vary.*
 
-- **Best Sharpe Ratio stock**: BBCA — strong return with relatively low volatility
-- **Highest volatility**: EXCL — suitable only for high-risk-tolerance investors
-- **Lowest correlation pair**: TLKM & ASII — combining these reduces portfolio risk effectively
-- **Optimal portfolio** (max Sharpe Ratio ≈ 1.42):
+- **Best Sharpe Ratio stock**: ????????
+- **Highest volatility**: ????????
+- **Lowest correlation pair**: ????????
+- **Optimal portfolio** (max Sharpe Ratio ≈ ????????):
   - BBCA: ~28% | BBRI: ~19% | TLKM: ~15% | Others: distributed across remaining 7 stocks
-- **Efficient Frontier** reveals: most retail investors hold suboptimal portfolios that carry more risk than necessary for their expected return
-
+- **Efficient Frontier** reveals: ????????
 ---
 
 ## Dashboard Preview
@@ -119,13 +118,13 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 Indonesia-Stock-Analysis/
 │
 ├── data/
-│   ├── stock_price.csv           # Raw daily closing prices
-│   ├── daily_returns.csv         # Computed daily returns
-│   ├── stock_summary.csv         # Annualized return, volatility, Sharpe per stock
-│   └── monte_carlo.csv           # 5,000 simulated portfolio metrics
+│   ├── stock_price.csv             # Raw daily closing prices
+│   ├── daily_returns.csv           # Computed daily returns
+│   ├── stock_summary.csv           # Annualized return, volatility, Sharpe per stock
+│   └── monte_carlo.csv             # 5,000 simulated portfolio metrics
 │
 ├── notebooks/
-│   └── ind_stock_analysis.ipynb   # Main analysis notebook (fully documented)
+│   └── ind_stock_analysis.ipynb    # Main analysis notebook (fully documented)
 │
 ├── output/
 │   ├── correlation_heatmap.png     # Correlation heatmap
@@ -157,7 +156,7 @@ pip install yfinance pandas numpy matplotlib seaborn scipy jupyter
 ### Run the Notebook
 
 ```bash
-jupyter notebook notebooks/analisis_portofolio.ipynb
+jupyter notebook notebooks/ind_stock_analysis.ipynb
 ```
 
 The notebook will automatically fetch the latest stock data from Yahoo Finance. To replicate the exact results in this README, set the date range to `2020-01-01` to `2025-12-31`.
