@@ -115,7 +115,7 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 ## Project Structure
 
 ```
-Indonesia-Stock-Analysis/
+Indonesian-Stock-Analysis/
 │
 ├── data/
 │   ├── stock_price.csv             # Raw daily closing prices
@@ -146,7 +146,7 @@ Indonesia-Stock-Analysis/
 
 ```bash
 # Clone the repository
-git clone https://github.com/fatwanurhdyt/Indonesia-Stock-Analysis.git
+git clone https://github.com/fatwanurhdyt/Indonesian-Stock-Analysis.git
 cd Indonesia-Stock-Analysis
 
 # Install dependencies
