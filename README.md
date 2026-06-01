@@ -6,35 +6,24 @@
 
 ## 🗂️ Table of Contents
 
-- [Project Overview](#project-overview)
-- [Business Problem](#business-problem)
+- [Overview](#overview)
 - [Dataset](#dataset)
+- [Business Questions](#business-questions)
 - [Methodology](#methodology)
-- [Key Findings](#key-findings)
 - [Dashboard Preview](#dashboard-preview)
+- [Key Findings](#key-findings)
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
-- [Tools & Libraries](#tools--libraries)
-- [About the Author](#about-the-author)
+- [Tools](#tools)
+- [Author](#author)
 
 ---
 
-## Project Overview
+## Overview
 
 This project performs a comprehensive risk-return analysis on 10 actively traded Indonesian stocks from the **LQ45 index**, covering the period **January 2020 – December 2025**. Using Modern Portfolio Theory (MPT) and Monte Carlo simulation, the analysis identifies the optimal portfolio allocation that maximizes the Sharpe Ratio — offering the best risk-adjusted return for investors.
 
 The project demonstrates end-to-end data analysis skills: from data ingestion and cleaning, through statistical modeling, to interactive dashboard storytelling.
-
----
-
-## Business Problem
-
-Individual investors in Indonesia often build portfolios based on intuition rather than data. Key questions this project answers:
-
-- Which LQ45 stocks offer the best risk-adjusted returns?
-- How correlated are these stocks — and which combinations reduce overall portfolio risk?
-- What is the **optimal allocation** across these stocks to maximize the Sharpe Ratio?
-- How does portfolio performance vary across 5,000 simulated allocation scenarios?
 
 ---
 
@@ -48,6 +37,17 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 | **Period** | January 2020 – December 2025 (6 years) |
 | **Frequency** | Daily closing prices |
 | **Records** | ~1,200 trading days × 10 stocks |
+
+---
+
+## Business Questions
+
+Individual investors in Indonesia often build portfolios based on intuition rather than data. Key questions this project answers:
+
+- Which LQ45 stocks offer the best risk-adjusted returns?
+- How correlated are these stocks — and which combinations reduce overall portfolio risk?
+- What is the **optimal allocation** across these stocks to maximize the Sharpe Ratio?
+- How does portfolio performance vary across 5,000 simulated allocation scenarios?
 
 ---
 
@@ -87,6 +87,14 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 
 ---
 
+## Dashboard Preview
+
+![Dashboard Preview](output/dashboard.png)
+
+🔗 [View on Tableau Public](https://public.tableau.com/app/profile/fatwa.nurhidayat/viz/LQ45PortfolioOptimizationDashboard/Dashboard) 
+
+---
+
 ## Key Findings
 
 > *Note: Values below are illustrative examples based on historical data. Actual results may vary.*
@@ -104,20 +112,9 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 - **Efficient Frontier** reveals:
     - higher expected returns generally require higher portfolio risk,
     - while diversification across multiple LQ45 sectors helps reduce overall portfolio volatility and improve portfolio efficiency
+ 
 ---
 
-## Dashboard Preview
-
-| Page | Content |
-|---|---|
-| **Overview** | Normalized price chart, total return by stock (2020–2025) |
-| **Risk-Return Map** | Scatter plot of annualized return vs. volatility per stock |
-| **Efficient Frontier** | 5,000 simulated portfolios colored by Sharpe Ratio |
-| **Recommendation** | Optimal allocation pie chart with key metrics |
-
-📊 [View Live Dashboard on Tableau Public](#) *(link will be added after publishing)*
-
----
 
 ## Project Structure
 
