@@ -183,16 +183,9 @@ The notebook will automatically fetch the latest stock data from Yahoo Finance. 
 
 ---
 
-## About the Author
+## Author
 
 **Fatwa Nurhidayat**
-Bachelor of Mathematics, Brawijaya University (GPA: 3.35/4.0)
-
-Thesis: *Optimization of Banking Stock Portfolio Weights Based on Return Predictions Using XGBoost and Bat Algorithm* — directly relevant to this project's portfolio optimization methodology.
-
-- 🔗 [LinkedIn](https://linkedin.com/in/fatwanurhdyt)
-- 📧 fatwa.nrhdyt@gmail.com
-
----
-
-*This project is for educational and portfolio purposes only. It does not constitute financial advice.*
+- GitHub: [@fatwanurhdyt](https://github.com/fatwanurhdyt)
+- LinkedIn: [linkedin.com/in/fatwanurhdyt](https://linkedin.com/in/fatwanurhdyt)
+- Email: [fatwa.nrhdyt@gmail.com](mailto:fatwa.nrhdyt@gmail.com)
