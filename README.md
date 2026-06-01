@@ -167,7 +167,7 @@ The notebook will automatically fetch the latest stock data from Yahoo Finance. 
 
 ---
 
-## Tools & Libraries
+## Tools
 
 | Category | Tools |
 |---|---|
