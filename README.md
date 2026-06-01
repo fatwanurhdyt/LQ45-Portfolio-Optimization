@@ -1,4 +1,4 @@
-# 📈 Indonesian Stock Portfolio Analysis & Optimization
+# 📈 LQ45 Portfolio Analysis & Optimization
 
 > **Optimizing equity portfolio allocation using Monte Carlo simulation, Modern Portfolio Theory, and risk-return analytics on LQ45 stocks.**
 
