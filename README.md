@@ -1,17 +1,19 @@
-# 📈 LQ45 Portfolio Analysis & Optimization
+# LQ45 Portfolio Analysis & Optimization
 
 > **Optimizing equity portfolio allocation using Monte Carlo simulation, Modern Portfolio Theory, and risk-return analytics on LQ45 stocks.**
 
 ---
 
-## 🗂️ Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Business Questions](#business-questions)
-- [Methodology](#methodology)
+- [Analysis Workflow](#analysis-workflow)
 - [Dashboard Preview](#dashboard-preview)
 - [Key Findings](#key-findings)
+- [Insights](#insights)
+- [Business Recommendations](#business-recommendations)
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
 - [Tools](#tools)
@@ -51,7 +53,7 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 
 ---
 
-## Methodology
+## Analysis Workflow
 
 ### 1. Data Collection & Cleaning
 - Retrieved adjusted closing prices using `yfinance`
@@ -115,6 +117,15 @@ Individual investors in Indonesia often build portfolios based on intuition rath
  
 ---
 
+## Insights
+???
+
+---
+
+## Business Recommendations
+???
+
+---
 
 ## Project Structure
 
